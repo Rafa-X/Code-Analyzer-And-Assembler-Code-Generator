@@ -1,0 +1,34 @@
+int calcula(int num1, int num2){
+    int res;
+    res = num1 + num2;
+    res = res/2;
+    return res;
+}
+
+int resta(int num1){
+    int subs;
+    subs = num1 - 15;
+    return subs;
+}
+
+int multiplicar(int num1){
+    int mult;
+    mult = num1*num1;
+    return mult;
+}
+
+void main() {
+    int precio;
+    int promedio;
+
+    precio = 10;
+    promedio = 20;
+    promedio = calcula(precio, promedio);
+
+    if(promedio < precio){
+        promedio = promedio + precio;
+    }
+    else{
+        promedio = resta(promedio);
+    }
+}
