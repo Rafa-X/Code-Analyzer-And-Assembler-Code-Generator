@@ -16,8 +16,17 @@ Code analyzer of a C, C++ test code and Assembler code generator
 * Interface
   - [Tkinter](https://docs.python.org/es/3/library/tkinter.html)
 
+## Steps to use
+1. Run the [main.py](https://github.com/Rafa-X/Code-Analyzer-And-Assembler-Code-Generator/blob/main/main.py)
+2. Once in the interface, select **Open TestCode** and select the .txt that contains the code to analyze (try [testcode.txt](https://github.com/Rafa-X/Code-Analyzer-And-Assembler-Code-Generator/blob/main/testcode.txt))
+3. Then select **Lexic & Sintax Analysis**, there are two ways that could procced:
+    - If the code its OK, this will make the analysis and will draw the sintactical tree
+    - If not, will show the errors, sintactical or semantical each in their own field
+4. To generate the Assembler code of the test code, click on Generate ASM, the .asm will appear in the same location of the main.py
+
 ## Interface
+### Run with no errors
 <p align="center" style="margin-bottom: 0px !important;">
-  <img width=70% src="images/interface.png" align="center">
+  <img width=80% src="images/interface.png" align="center">
 </p>
 
