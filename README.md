@@ -30,3 +30,11 @@ Code analyzer of a C, C++ test code and Assembler code generator
   <img width=80% src="images/interface.png" align="center">
 </p>
 
+### Run with errors
+1. Change the parameter datatype of function **calcula()**, **int num2 -> string num2**
+2. Delete the declaration of **promedio** variable in function **main()**
+
+<p align="center" style="margin-bottom: 0px !important;">
+  <img width=80% src="images/interface-errors.png" align="center">
+</p>
+
