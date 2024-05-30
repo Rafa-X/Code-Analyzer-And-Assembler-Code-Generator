@@ -32,9 +32,10 @@ Code analyzer of a C, C++ test code and Assembler code generator
 
 ### Run with errors
 1. Change the parameter datatype of function **calcula()**, **int num2 -> string num2**
-2. Delete the declaration of **promedio** variable in function **main()**
+2. Delete the semicolon of the end in the first line of **main()** function
+3. Delete the declaration of **promedio** variable in function **main()**
 
 <p align="center" style="margin-bottom: 0px !important;">
-  <img width=80% src="images/interface-errors.png" align="center">
+  <img width=80% src="images/interface_errors.png" align="center">
 </p>
 
